@@ -125,10 +125,13 @@ article {
     gap: 1rem;
     flex-wrap: wrap;
     margin-top: 2rem;
+  
   }
 
   .experience__container>div {
-    width: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
     padding: 2rem 1rem;
   }
 

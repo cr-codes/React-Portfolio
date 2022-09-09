@@ -59,10 +59,10 @@ function Contact() {
       </div>
       <form className="container input-form" ref={form} onSubmit={sendEmail}>
                 <div className='send-mail'><h5>Send me a message! </h5></div>
-                <input type="text" name="name" placeholder='Enter your name' required />
-                <input type="email" name="email" placeholder='Enter your email address' required />
-                <textarea name="message" rows="5" placeholder='Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?'></textarea>
-                <button type='submit' className='btn btn-primary'>Send Message</button>
+                <input className="inputField" type="text" name="name" placeholder='Enter your name' required />
+                <input className="inputField" type="email" name="email" placeholder='Enter your email address' required />
+                <textarea className="textField" name="message" rows="5" placeholder='Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?'></textarea>
+                <button type='submit' className='btn btn-primary'>Send email</button>
           </form>
       </div>
   );

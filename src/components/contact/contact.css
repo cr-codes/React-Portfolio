@@ -359,8 +359,8 @@
   justify-content: center;
 }
 
-input,
-textarea{
+.inputField,
+.textField{
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -370,7 +370,7 @@ textarea{
   color: var(--color-white);
 }
 
-input, textarea:focus :hover{
+.inputField, .textField:focus :hover{
   background: transparent;
   background-color: transparent;
   border: 2px solid var(--color-primary);
@@ -385,8 +385,8 @@ h5{
 }
 
 .btn{
-  font-size: 20px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 15px;
   border: none;
   border-radius: 5px;
   color: white;

@@ -1,16 +1,8 @@
-.project-txt {
-  text-align: start;
-  font-size: 22px;
-  font-family: "poppins", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  color: var(--color-pri);
-}
 
 .project-txt{
   margin: 0 auto;
   font-size: 22px;
-  font-family: "poppins", sans-serif;
+  font-family: "poppins";
   font-weight: 400;
   color: var(--color-pri);
 }
