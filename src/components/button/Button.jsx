@@ -1,10 +1,11 @@
 import "./button.css";
+import Resume from "../props/Rahul_Resume.pdf";
 // import {FcDownload} from "react-icons/fc";
 
 function Buttons() {
   return (
     <div className="container btn-container">
-      <a href='../props/Rahul_Resume.pdf' download className="btn pri dbutton">
+      <a href={Resume} download className="btn pri dbutton">
       {/* <FcDownload className="dicon"/> */}
         Resume
       </a>
