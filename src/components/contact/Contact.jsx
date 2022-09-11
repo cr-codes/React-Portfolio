@@ -60,8 +60,8 @@ function Contact() {
         </a>
      
       </div>
-      <form className="formContainer input-form" ref={form} onSubmit={sendEmail}>
-                <div className='send-mail'><h2>Send me a message! </h2></div>
+      <form id="mail" className="formContainer input-form" ref={form} onSubmit={sendEmail}>
+                <div className='send-mail'><h2>Send me Email! </h2></div>
                 <input className="inputField" type="text" name="name" placeholder='Enter your name' required />
                 <input className="inputField" type="email" name="email" placeholder='Enter your email address' required />
                 <textarea className="textField inputField" name="message" rows="5" placeholder='Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?'></textarea>

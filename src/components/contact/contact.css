@@ -376,6 +376,13 @@ h5{
     margin-top: 3px;
     color: rgb(202, 202, 202);
   }
+
+  .formContainer {
+    margin-top: 3rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    width: 100%;
+}
 }
 
 @media (max-width: 375px) {
@@ -445,6 +452,13 @@ h5{
     margin-top: 3px;
     color: rgb(202, 202, 202);
   }
+
+  .formContainer {
+    margin-top: 3rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    width: 100%;
+}
 }
 
 
@@ -457,7 +471,6 @@ h5{
       align-items: center;
       margin-bottom: 3rem;
       width: 100%;
-
   }
   .btn{
     width: var(--container-width-sm);

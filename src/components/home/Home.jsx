@@ -2,6 +2,7 @@ import './home.css';
 import img from '../props/img2.jpg';
 import Buttons from '../button/Button';
 import { BsMouse } from 'react-icons/bs';
+// import { TbClick } from 'react-icons/tb';
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         </div>
 
         <img src={img} alt='' />
+        {/* <TbClick className='clickIcon' /> */}
       </div>
 
       <a href='#footer' className='scroll-down'>
@@ -30,7 +32,7 @@ function Home() {
 
       <h2>
         <span>About Me</span> <br />
-        <p>
+        <p className='home-text'>
         A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
         </p>
       </h2>

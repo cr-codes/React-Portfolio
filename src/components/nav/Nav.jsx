@@ -1,9 +1,10 @@
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
+// import { AiOutlineUser } from "react-icons/ai";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { BiCategory } from "react-icons/bi";
-import { BiShare } from "react-icons/bi";
+import { BiShareAlt } from "react-icons/bi";
+import { BiCodeAlt } from "react-icons/bi";
 
 
 function Navbar() {
@@ -13,16 +14,16 @@ function Navbar() {
         <AiOutlineHome className="icon active-nav" />
       </a>
       <a href="#about">
-        <AiOutlineUser className="icon" />
+        <BiCodeAlt className="icon" />
       </a>
       <a href="#projects">
         <BiCategory className="icon" />
       </a>
-      <a href="#contact">
+      <a href="#mail">
         <BiMessageRoundedDots className="icon" />
       </a>
       <a href="#footer">
-        <BiShare className="icon" />
+        <BiShareAlt className="icon" />
       </a>
     </div>
   );
