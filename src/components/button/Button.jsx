@@ -4,7 +4,7 @@ import "./button.css";
 function Buttons() {
   return (
     <div className="container btn-container">
-      <a href='../props/RESUME.pdf' download className="btn pri dbutton">
+      <a href='../props/Rahul_Resume.pdf' download className="btn pri dbutton">
       {/* <FcDownload className="dicon"/> */}
         Resume
       </a>
