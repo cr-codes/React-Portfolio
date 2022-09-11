@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.f3dbbbc3.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.fce99b66.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.fce99b66.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.81a3d2ee.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.81a3d2ee.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.344606a7.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.344606a7.js.map",
     "static/js/2.0b67dfba.chunk.js": "/React-Portfolio/static/js/2.0b67dfba.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/React-Portfolio/index.html",
     "static/css/main.f3dbbbc3.chunk.css.map": "/React-Portfolio/static/css/main.f3dbbbc3.chunk.css.map",
     "static/js/2.0b67dfba.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.0b67dfba.chunk.js.LICENSE.txt",
+    "static/media/Rahul_Resume.439d84aa.pdf": "/React-Portfolio/static/media/Rahul_Resume.439d84aa.pdf",
     "static/media/projects.css": "/React-Portfolio/static/media/todo.f795ae3e.png",
     "static/media/home.css": "/React-Portfolio/static/media/react.23fd0138.png",
     "static/media/img2.83c5239c.jpg": "/React-Portfolio/static/media/img2.83c5239c.jpg"
@@ -18,6 +19,6 @@
     "static/js/runtime-main.344606a7.js",
     "static/js/2.0b67dfba.chunk.js",
     "static/css/main.f3dbbbc3.chunk.css",
-    "static/js/main.fce99b66.chunk.js"
+    "static/js/main.81a3d2ee.chunk.js"
   ]
 }
