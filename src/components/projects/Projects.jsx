@@ -3,8 +3,10 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div id="projects" className="container projects-container">
-      <h1 className="project-txt">Projects</h1>
-      
+      <div className="project_head">
+      <h5>What I Have Build</h5>
+          <h2>My Projects</h2>
+      </div>
       <div className="project project-1">
         <div className="project-img1"></div>
         <div className="project-info">

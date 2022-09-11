@@ -6,65 +6,73 @@ const Experience = () => {
   return (
     <section id="experience">
       <div className="experience_head">
-      <h5>What Skill's I have</h5>
-      <h2>My Experiences</h2>
+        <h5>What Skill's I have</h5>
+        <h2>My Experiences</h2>
       </div>
-      
+
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
-
+          <div className="post">
           <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>CSS</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>JavaScript</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>BootStrap</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Tailwind</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>ReactJS</h4>
-                <small>Experienced</small>
-              </div>
-            </article>
+            <div className="sub_content">
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>HTML</h4>
+                  <small>Experienced</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>CSS</h4>
+                  <small>Intermediate</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>JavaScript</h4>
+                  <small>Intermediate</small>
+                </div>
+              </article>
+            </div>
+            <div className="sub_content">
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>BootStrap</h4>
+                  <small>Experienced</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>Tailwind</h4>
+                  <small>Experienced</small>
+                </div>
+              </article>
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon' />
+                <div>
+                  <h4>ReactJS</h4>
+                  <small>Experienced</small>
+                </div>
+              </article>
+            </div>
+          </div>
           </div>
         </div>
 
         <div className="experience__backend">
           <h3>Backend Development</h3>
-          <div className="experience__content">
+          <div className="post">
 
-            <article className='experience__details'>
+          
+          <div className="experience__content">
+          <div className="sub_content">
+          <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>NodeJS</h4>
@@ -85,7 +93,9 @@ const Experience = () => {
                 <small>Basic</small>
               </div>
             </article>
-            <article className='experience__details'>
+          </div>
+          <div className="sub_content">
+          <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>MySQL</h4>
@@ -107,10 +117,14 @@ const Experience = () => {
               </div>
             </article>
           </div>
+           
+           
+          </div>
+          </div>
         </div>
       </div>
     </section>
   )
 }
 
-export default Experience
+export default Experience;

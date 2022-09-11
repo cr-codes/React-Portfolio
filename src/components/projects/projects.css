@@ -1,20 +1,29 @@
-
-.project-txt{
+.project_head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  height: max-content;
+  margin-bottom: 1.5em;
+  width: 100%;
+}
+.projects-head > h2{
   margin: 0 auto;
   font-size: 22px;
   font-family: "poppins";
-  font-weight: 400;
-  color: var(--color-pri);
+  font-weight: bold;
+  color: #fff;
 }
 
 .projects-container {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
   min-height: 100vh;
-  margin-top: 100px;
+  margin-top: 3em;
 }
 
 .projects-container .project {
