@@ -2,7 +2,7 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://rahul-misal96.github.io/React-Portfolio",
+  "homepage" : "http://cr-codes.github.io/React-Portfolio",
   "dependencies": {
     "@mui/icons-material": "^5.10.3",
     "@react-icons/all-files": "^4.1.0",

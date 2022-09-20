@@ -21,6 +21,7 @@ function Home() {
 
         <img src={img} alt='' />
         {/* <TbClick className='clickIcon' /> */}
+        <span className='click'>Click Me!</span>
       </div>
 
       <a href='#footer' className='scroll-down'>

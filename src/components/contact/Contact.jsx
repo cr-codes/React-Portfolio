@@ -65,7 +65,7 @@ function Contact() {
                 <input className="inputField" type="text" name="name" placeholder='Enter your name' required />
                 <input className="inputField" type="email" name="email" placeholder='Enter your email address' required />
                 <textarea className="textField inputField" name="message" rows="5" placeholder='Hi, I think we need a design system for our products at Company X. How soon can you hop on to discuss this?'></textarea>
-                <button type='submit' className='btn btn-primary'>Send email</button>
+                <button type='submit' className='btn btn-primary'>Send</button>
           </form>
       </div>
   );
